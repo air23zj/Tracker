@@ -1,0 +1,43 @@
+Child side:
+	Bluetooth just on
+		Check if parent in range
+	If can't see parent bluetooth
+		if accelerometers show movement
+			Send GPS by email/text/online server
+		if can't see GPS
+			Emergency message
+	Magnetic localization (optional)
+	High frequency sound emitter (optional)
+	Arrow to parent when recalled (maybe?)
+	Store parent phone #
+	
+Parent side:
+	Estimate distance from Bluetooth
+	Estimate distance from high frequency sound (optional)
+	Map to show child GPS coordinate and parent coordinate
+	Bluetooth trilateration protocol
+		Need to figure good distance for accuracy
+		Give a general angle/cone of child on map
+	Recall child button
+		text child to come back
+	Store child phone #
+	
+	
+Both:
+	Pairing to share Bluetooth ID
+	
+	
+General stuff:
+	
+
+Bogdan tasks:
+	GPS and map
+		Show point of given gps
+		Show cone given cone angle and angle wrt East
+	Accelerometer
+Stephen tasks:
+	Bluetooth and trilateration
+		Output distance range, angle wrt East, direction error as angle
+	Magnetic localization (maybe)
+	High frequency sound
+		Check power requirements 
